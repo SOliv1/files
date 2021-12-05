@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+   /* background-color: rgb(36, 71, 175);*/
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    background: url('secret-messages/img/constellation.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    margin: 15% 2%;
+}
+
+section {
+    width: 100%;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+h3 {
+    height: 2em;
+}
+
+.option {
+    margin-bottom: 0.5em;
+}
+
+input {
+    margin-right: 7px;
+}
+
+#roleInputs {
+    flex-grow: 1;
+}
+
+
+ button {
+     color:crimson;
+
+}
+
+input {
+    background-color: rgb(18, 24, 42);
+    border-color: white;
+}
