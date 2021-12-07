@@ -1,7 +1,7 @@
 // starsign.js
 
-import { toggleHiddenElement, changeToFunkyColor } from '../modules/dom-functions.js';
-import ( require('secret-message.js'));
+//import { toggleHiddenElement, changeToFunkyColor } from '../modules/dom-functions.js';
+//import ( require('secret-message.js'));
 // Generates random messages about starsigns and Zodiac events
 
 function generateRandomNumber(len) {
@@ -41,13 +41,17 @@ const data = {
     'Your sun zodiac sign relates to your sense of self, your confidence, and your identity',
     'The sun sign is only the beginning of a rich and complex journey that involves the rest of the planets',
     'Some astrologers consider the Ophiuchus constellation a thirteenth sign',
+    'Aphrodite. This enchanting Goddess of Love possesses many of the traits associated with the Libra zodiac sign',
     'When astrologers realized that Earth was moving, this morphed into an Earth-centric practice',
     'Earth-centric practice centered on the points that mark our four seasons of spring, summer, autumn, and winter',
     'Every year, the sun enters Aries on the same day as the Spring Equinox',
     'Fiery Mars makes Aries full of light and energy',
     'Taurus suddenly mellows the vibes for rest and relaxation',
+    'Cancer - Artemis, The Greek goddess Artemis, ruler of Cancer, is also sometimes known as the Moon Goddess.',
     'Starsigns are not about what you are but who you are written in the stars',
     'Twins is ruled by intellectual cosmic messenger Mercury, the fastest-moving planet in the solar system',
+    'Ancient Greeks were fascinated by the stars and constellations in the night sky.',
+    'The Ancient Greeks great meaning to the cosmos by aligning each sign of the zodiac with a god or goddess.',
   ],
 };
 
